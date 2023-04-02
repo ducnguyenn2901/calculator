@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cal {
+    border: 1px solid;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    background-color: rgb(218, 216, 216);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.num {
+    padding: 10px;
+    margin: auto;
+}
+.button {
+    background-color: rgb(166, 255, 0);
+    width: 70px;
+    margin: 5px;
+    height: 40px;
+}
+.operator {
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+
+}
