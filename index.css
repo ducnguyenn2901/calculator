@@ -25,11 +25,12 @@
     width: 70px;
     margin: 5px;
     height: 40px;
+    color: rgb(98, 98, 98);
 }
 .operator {
     background-color: yellow;
     width: 100px;
     height: 40px;
     margin: 5px;
-
+    color: rgb(98, 98, 98);
 }
