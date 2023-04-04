@@ -1,5 +1,6 @@
 alert("Powered by: Duc Nguyen")
 
+// text
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 anime.timeline({ loop: true })
@@ -31,7 +32,7 @@ anime.timeline({ loop: true })
         delay: 1000
     });
 
-
+// calculator
 function display(number) {
     //+= : cộng với một giá trị nào đó và lấy kết quả tổng của 2 giá trị
     document.getElementById('result').value += number;
